@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="phone.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    table, th, td{
+        border: 1px solid black;
+    }
+</style>
+</head>
+<body>
+    <script src="phone.js"></script>
+   <h1>Phone Book</h1> 
+   <form id="Contact">
+<label for="firstname">firstname</label>
+<input type="text" id="firstname" required>
+
+<label for="lastname">lastname</label>
+<input type="text" id="lastname" required>
+
+<label for="pnum">Phone Number</label>
+<input type="text" id="pnumber" required>
+<button type="button" onclick="add()">Add</button>
+   </form>
+   <br>
+   <br>
+   <br>
+   <table id="ctable">
+<th>
+<tr>
+    <th>firstname</th>
+    <th>LastNames</th>
+    <th>Phonenumber</th>
+</tr>
+</th>
+<tbody>
+
+</tbody>
+   </table>
+</body>
+</html>
